@@ -145,7 +145,7 @@ h4 {
 .list li .img {
     /* display: block; */
     float: left;
-    width: 32%;
+    width: 30%;
 }
 
 .list li .img img {
@@ -154,7 +154,7 @@ h4 {
 
 .list li .des {
     float: right;
-    width: 59%;
+    width: 58%;
     padding: 5px;
 }
 
@@ -163,6 +163,8 @@ h4 {
     color: #000;
     margin-bottom: 5px;
     font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .list .des span {
